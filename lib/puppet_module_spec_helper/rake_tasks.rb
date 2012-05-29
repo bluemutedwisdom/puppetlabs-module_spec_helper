@@ -12,7 +12,7 @@ end
 
 # This is a helper for the self-symlink entry of fixtures.yml
 def source_dir
-  File.dirname(__FILE__)
+  Dir.pwd
 end
 
 def fixtures(category)

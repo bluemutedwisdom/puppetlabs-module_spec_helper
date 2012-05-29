@@ -14,7 +14,7 @@ end
 Puppet.parse_config
 puppet_module_path = Puppet[:modulepath]
 
-fixture_path = File.expand_path(File.join(File.dirname(__FILE__), 'fixtures'))
+fixture_path = File.expand_path(File.join(Dir.pwd, 'spec/fixtures'))
 
 RSpec.configure do |c|
   fixture_module_path = File.join(fixture_path, 'modules')

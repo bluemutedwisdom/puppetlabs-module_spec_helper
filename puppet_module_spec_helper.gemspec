@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
  
 Gem::Specification.new do |s|
   s.name        = "puppet_module_spec_helper"
-  s.version     = "0.1.0"
+  s.version     = "0.1.2"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Branan Purvine-Riley"]
   s.email       = ["branan@puppetlabs.com"]
